@@ -1,84 +1,95 @@
-.location-container{
-    background-color: #850321;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 3rem;
-    padding: 3rem;
-    position: relative;
+.location-container {
+  background-color: #850321;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem;
+  position: relative;
 }
-.love-img{
-    position: absolute;
-    left: 5%;
-    bottom: -15%;
+.love-img {
+  position: absolute;
+  left: 5%;
+  bottom: -15%;
 }
 .location-container h4 {
-    color: white;
-    font-family: 'Shadows Into Light', cursive;
-font-size: 30px;
-text-transform: uppercase;
+  color: white;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 .location-container a {
-    border: 1px solid white;
-    text-decoration: none;
-    border-radius: 50px;
-    color: white;
-    font-size: 20px;
-    padding: .5rem 1rem;
-cursor: pointer;
-    font-family: 'Poiret One', sans-serif;
-    transition: .2s ease-in-out;
+  border: 1px solid white;
+  text-decoration: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Poiret One", sans-serif;
+  transition: 0.2s ease-in-out;
 }
 
 .location-container a:hover {
-    scale: 1.1;
+  scale: 1.1;
 }
 
-.church-container, .villa-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.church-container,
+.villa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
-.church-container img{
-    width: 350px;
+.church-container img {
+  width: 350px;
 }
-.church-container{
-    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.church-container {
+  view-timeline-name: --church;
+  view-timeline-axis: block;
+
+  animation-timeline: --church;
+  animation-name: slide-in-left;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
 }
 .villa-container {
-    -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  view-timeline-name: --villa;
+  view-timeline-axis: block;
+
+  animation-timeline: --villa;
+  animation-name: slide-right;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+
 }
-.villa-container img{
-    width: 450px;
+.villa-container img {
+  width: 450px;
 }
 
 @media (max-width: 900px) {
-.location-container{
+  .location-container {
     gap: 2rem;
-}
-    .church-container img{
-        width: 250px;
-    }
-    .villa-container img{
-        width: 350px;
-    }
-    
+  }
+  .church-container img {
+    width: 250px;
+  }
+  .villa-container img {
+    width: 350px;
+  }
 }
 
 @media (max-width: 700px) {
-.location-container{
+  .location-container {
     flex-direction: column;
     align-items: center;
-}
+  }
 
-.love-img{
+  .love-img {
     height: 200px;
     left: 0%;
     bottom: -10%;
-}
+  }
 }

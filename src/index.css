@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background-color: #FFFCEF;
-
+  background-color: #fffcef;
 }
 
 h1 {
@@ -19,50 +18,82 @@ h6 {
 }
 
 p {
-  font-family: 'Poiret One', sans-serif;
-margin: 0;
+  font-family: "Poiret One", sans-serif;
+  margin: 0;
 }
 
- @-webkit-keyframes slide-in-right {
+@-webkit-keyframes slide-right {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
-@keyframes slide-in-right {
+@keyframes slide-right {
   0% {
-    -webkit-transform: translateX(1000px);
-            transform: translateX(1000px);
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
-
- @-webkit-keyframes slide-in-left {
+@-webkit-keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 @keyframes slide-in-left {
   0% {
-    -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
+@-webkit-keyframes scale-up {
+  0% {
+   scale: .5;
+  }
+  100% {
+    scale: 1;
+  }
+}
+@keyframes scale-up {
+  0% {
+   scale: .5;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+   opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  0% {
+   opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

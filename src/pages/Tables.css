@@ -19,10 +19,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  view-timeline-name: --church;
+  view-timeline-axis: block;
+
+  animation-timeline: --church;
+  animation-name: scale-up;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
 }
 .tables-distribution {
   display: flex;
   gap: 2rem;
+
+  view-timeline-name: --church;
+  view-timeline-axis: block;
+
+  animation-timeline: --church;
+  animation-name: scale-up;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
 }
 
 .tables-distribution div {
