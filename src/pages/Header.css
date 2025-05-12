@@ -122,6 +122,8 @@ h5 {
   .polaroid-left {
     height: 280px;
     bottom: -30%;
+  transform: rotate(0deg);
+
   }
   .champagne {
     width: 140px;

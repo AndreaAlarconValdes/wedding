@@ -75,6 +75,7 @@
   }
   .church-container img {
     width: 250px;
+    z-index: 999;
   }
   .villa-container img {
     width: 350px;
