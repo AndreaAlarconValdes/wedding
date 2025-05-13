@@ -9,7 +9,7 @@
 }
 .love-img {
   position: absolute;
-  left: 5%;
+  left: 3%;
   bottom: -15%;
 }
 .location-container h4 {
@@ -70,6 +70,11 @@
   .villa-container img {
     width: 350px;
   }
+  .love-img {
+    height: 200px;
+    left: 0%;
+    bottom: -10%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -78,9 +83,5 @@
     align-items: center;
   }
 
-  .love-img {
-    height: 200px;
-    left: 0%;
-    bottom: -10%;
-  }
+  
 }
