@@ -84,27 +84,25 @@ h5 {
 
 @media (max-width: 900px) {
   .disco-ball {
-    height: 120px;
+    height: 100px;
   }
   .champagne {
-    width: 300px;
+    width: 250px;
     left: 0%;
     bottom: 0%;
   }
 
   .polaroid-left {
-    height: 350px;
+   display: none;
   }
   .polaroid-right {
-    height: 350px;
+    height: 300px;
     right: 0%;
   }
 }
 
 @media (max-width: 700px) {
-  .disco-ball {
-    right: 0%;
-  }
+ 
   .names-container h1 {
     font-size: 60px;
   }
@@ -116,18 +114,15 @@ h5 {
   .header-container h5 {
     font-size: 20px;
   }
-  .polaroid-right {
+  .polaroid-left {
     display: none;
   }
-  .polaroid-left {
-    height: 280px;
+  .polaroid-right {
+    height: 200px;
     bottom: -30%;
-  transform: rotate(0deg);
 
   }
   .champagne {
     width: 140px;
-    left: 60%;
-    transform: scaleX(-1);
   }
 }

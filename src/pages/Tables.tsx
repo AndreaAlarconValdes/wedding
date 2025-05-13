@@ -25,7 +25,7 @@ const Tables = () => {
         </div>
         <div>
         <img src="./table-4.png" alt="" />
-          <p>Friends of the bride</p>
+          <p>Friends of the groom</p>
         </div>
       </div>
     </div>

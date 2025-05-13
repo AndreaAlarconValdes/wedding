@@ -13,7 +13,13 @@
     display: flex;
     flex-direction: column;
   
-
+    view-timeline-name: --location;
+    view-timeline-axis: block;
+  
+    animation-timeline: --location;
+    animation-name: show;
+    animation-range: entry 15% cover 50%;
+    animation-fill-mode: both;
 }
 
 .timeline-imgs {

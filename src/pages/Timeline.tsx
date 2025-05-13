@@ -29,7 +29,7 @@ const Timeline = () => {
           </div>
           <div>
             <span></span>
-            <p>13:15</p>
+            <p>19:30</p>
             <h4>PARTY</h4>
           </div>
         </div>

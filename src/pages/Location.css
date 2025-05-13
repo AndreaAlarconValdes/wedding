@@ -42,29 +42,19 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+
+  view-timeline-name: --location;
+  view-timeline-axis: block;
+
+  animation-timeline: --location;
+  animation-name: scale-up;
+  animation-range: entry 25% cover 40%;
+  animation-fill-mode: both;
 }
 .church-container img {
   width: 350px;
 }
-.church-container {
-  view-timeline-name: --church;
-  view-timeline-axis: block;
 
-  animation-timeline: --church;
-  animation-name: slide-in-left;
-  animation-range: entry 25% cover 50%;
-  animation-fill-mode: both;
-}
-.villa-container {
-  view-timeline-name: --villa;
-  view-timeline-axis: block;
-
-  animation-timeline: --villa;
-  animation-name: slide-right;
-  animation-range: entry 25% cover 50%;
-  animation-fill-mode: both;
-
-}
 .villa-container img {
   width: 450px;
 }
