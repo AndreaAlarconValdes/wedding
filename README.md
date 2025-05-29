@@ -8,7 +8,7 @@
 
 > Project in progress — *Coming soon...*
 
-This is a **fictional wedding website**, created as a personal or portfolio project. The site showcases a sample wedding with multiple sections typically found in real wedding sites, such as event details, RSVP, and photo galleries.
+This is a **fictional wedding website**, created as a personal and portfolio project. The site showcases a sample wedding with multiple sections typically found in real wedding sites, such as event details, RSVP, and photo galleries.
 
 ## 🌟 Features
 
@@ -16,6 +16,7 @@ This is a **fictional wedding website**, created as a personal or portfolio proj
 - 💑 Love story / about the couple
 - 📍 Event details (date, time, location)
 - 🏨 Accommodation and travel info
+- 💬 Questions & Answers
 - 🎁 Gift registry section *(coming soon)* 
 - 📸 Photo gallery *(coming soon)* 
 - ✉️ RSVP form with email integration *(coming soon)* 
@@ -24,15 +25,17 @@ This is a **fictional wedding website**, created as a personal or portfolio proj
 
 This project was built using the following tools and technologies:
 
-- 🎨 All illustrations in the project were created by me using [Krita](https://krita.org/)
-
 <p align="start">
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a> 
 <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg" width="36" height="36" alt="Vite" /></a>
 <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-</P>
+</p>
+</br>
+
+- 🎨 All illustrations in the project were created by me using [Krita](https://krita.org/)
+
 
 ## 🚀 Steps to run the project on your machine
 
